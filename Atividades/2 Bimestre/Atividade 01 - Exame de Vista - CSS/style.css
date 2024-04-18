@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6 { 
+    font-family: arial;
+}
+
+h1.titulo{
+    text-align: center;
+}
+
+h3 {
+    color: green;
+}
+
+h4 {
+    color: grey;
+}
+
+h5 {
+    color: red;
+}
+
+h6 {
+    color: blue;
+}
+
+p {
+    font-family: arial;
+    font-size: 20px;
+}

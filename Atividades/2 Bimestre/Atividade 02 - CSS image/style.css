@@ -1,0 +1,36 @@
+h2 {
+    font-family: Arial;
+    color:maroon;
+}
+
+p {
+    font-family: Arial;
+    color:maroon;
+    size: 12px;
+}
+
+p.esquerda{
+    font-family: Arial;
+    color:maroon;
+    text-align: left;
+    size: 12px;
+}
+
+p.centralizado { 
+    text-align: center;
+    font-family: Arial;
+    color:maroon;
+    size: 12px;
+}
+
+p.direita{
+    text-align: right;
+    font-family: Arial;
+    color:maroon;
+    size: 12px;
+}
+
+#hrs {
+    border-color: maroon;
+}
+
