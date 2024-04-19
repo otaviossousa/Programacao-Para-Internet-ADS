@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pizza</title>
 </head>
-<body>
+<body text color>
     <table border="1" align="center" width="50%" heigth="50%">
         <tr>
             <td colspan="2">
@@ -34,29 +34,45 @@
             </tr>
             <tr>
                 <td align="right"><font color="de2018">Seu tipo de pizza preferido:</font></td>
-                <td><form action="">
-                    <select name="slt_pizza">
-                        <option value="Calabresa"></option>
-                    </select>
-                </form></td>
+                <td>
+                    <form action="" method="post">
+                        <select name="slt_pizza">
+                            <option value="Calabresa"> Calabresa</option>
+                            <option value="Margherita"> Margherita</option>
+                            <option value="Mussarela"> Mussarela</option>
+                            <option value="Portuguesa"> Portuguesa</option>
+                            <option value="Pepperoni"> Pepperoni</option>
+                            <option value="Quatro Queijos"> Quatro Queijos</option>
+                            <option value="Pomodoro"> Pomodoro</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><font color="de2018">Quantas vezes come pizza por semestre?</font></td>
+                <td>
+                    <form action="" method="post">
+                        <input type="radio" name="rdo_pizza" value="1"> Entre 1 a 5 <br>
+                        <input type="radio" name="rdo_pizza" value="2"> 5 a 10 <br>
+                        <input type="radio" name="rdo_pizza" value="3"> Mais de 10 <br>
+                    </form>
+                </td>
             </tr>
             <tr>
                 <td align="right"><font color="de2018">Comentário</font></td>
                 <td align="right"><font color="de2018"></font></td>
             </tr>
             <tr>
-                <td align="center" colspan="2"><font color="de2018">Deseja receber e-mail dos nossos parceiros</font></td>
+                <td align="center" colspan="2">
+                    <input type="checkbox" name="chk_email" value="1"> <font color="de2018">Deseja receber e-mail dos nossos parceiros</font>
+                </td>
             </tr>
-            <tr>
-                <td colspan="2"><font color="de2018"> sim?</font></td>
-            </tr>
-            
-            </td>
         </tr>
 
         <tr>
-            <td colspan="2">
-                    enviar limpar 
+            <td colspan="2" align="center">
+                <button type="submit" style="margin-right: 10px;">Enviar</button>
+                <button type="reset">Limpar</button>
             </td>
         </tr>
 
