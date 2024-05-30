@@ -3,83 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Pizza</title>
+    <title>Formulário Pizza</title>
 </head>
 <body>
-    <table border="1" align="center" width="50%" heigth="50%">
+    <table border="1"border="1" align="center">
         <tr>
-            <td colspan="2">
-                <hr color="de2018" size="50">
-            </td>
+            <td> <img src="/Atividades/1 Bimestre/Atividade 16 - Pizza - Cadastro - Forms/imagens_pizza/topo.png" alt="topo"></td>
         </tr>
-
         <tr>
-            <td colspan="2"> 
+            <td>
                 <img src="imagens_pizza/icone_pizza.gif" alt="pizza"> <font color="de2018">Cadastre-se e receba nossas atualizações</font>
+                <hr color="de2018" size="2">
+                <table border="1" align="center">
+                    <tr>
+                        <td align="right"><font color="de2018">Nome:</font></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><font color="de2018">Senha:</font></td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><font color="de2018">Confirmação de senha:</font></td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><font color="de2018">Seu tipo de pizza preferido:</font></td>
+                        <td>
+                            <form action="" method="post">
+                                <select name="slt_pizza">
+                                    <option value="Calabresa"> Calabresa</option>
+                                    <option value="Margherita"> Margherita</option>
+                                    <option value="Mussarela"> Mussarela</option>
+                                    <option value="Portuguesa"> Portuguesa</option>
+                                    <option value="Pepperoni"> Pepperoni</option>
+                                    <option value="Quatro Queijos"> Quatro Queijos</option>
+                                    <option value="Pomodoro"> Pomodoro</option>
+                                </select>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><font color="de2018">Quantas vezes come pizza por semestre?</font></td>
+                        <td>
+                            <form action="" method="post"><font color="de2018">
+                                <input type="radio" name="rdo_pizza" value="1"> Entre 1 a 5 <br>
+                                <input type="radio" name="rdo_pizza" value="2"> 5 a 10 <br>
+                                <input type="radio" name="rdo_pizza" value="3"> Mais de 10 <br>
+                            </font>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><font color="de2018">Comentário</font></td>
+                        <td><textarea name="txt_comentario" id="comentario"rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <input type="checkbox" name="chk_email" value="1"><font color="de2018">Deseja receber e-mail dos nossos parceiros</font></>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button type="submit" style="margin-right: 10px;">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </td>
+                    </tr>
+                </table>
+                <hr color="de2018" size="2">
             </td>
         </tr>
-        
         <tr>
-            <tr>
-                <td align="right"><font color="de2018" >Nome:</font></td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td align="right"><font color="de2018">Senha:</font></td>
-                <td><input type="password"></font></td>
-            </tr>
-            <tr>
-                <td align="right"><font color="de2018">Confirmação de senha:</font></td>
-                <td><input type="password"></font></td>
-            </tr>
-            <tr>
-                <td align="right"><font color="de2018">Seu tipo de pizza preferido:</font></td>
-                <td>
-                    <form action="" method="post">
-                        <select name="slt_pizza">
-                            <option value="Calabresa"> Calabresa</option>
-                            <option value="Margherita"> Margherita</option>
-                            <option value="Mussarela"> Mussarela</option>
-                            <option value="Portuguesa"> Portuguesa</option>
-                            <option value="Pepperoni"> Pepperoni</option>
-                            <option value="Quatro Queijos"> Quatro Queijos</option>
-                            <option value="Pomodoro"> Pomodoro</option>
-                        </select>
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <td align="right"><font color="de2018">Quantas vezes come pizza por semestre?</font></td>
-                <td>
-                    <form action="" method="post">
-                        <input type="radio" name="rdo_pizza" value="1"> Entre 1 a 5 <br>
-                        <input type="radio" name="rdo_pizza" value="2"> 5 a 10 <br>
-                        <input type="radio" name="rdo_pizza" value="3"> Mais de 10 <br>
-                    </form>
-                </td>
-            </tr>
-            <tr>
-                <td align="right"><font color="de2018">Comentário</font></td>
-                <td align="right"><font color="de2018"></font></td>
-            </tr>
-            <tr>
-                <td align="center" colspan="2">
-                    <input type="checkbox" name="chk_email" value="1"> <font color="de2018">Deseja receber e-mail dos nossos parceiros</font>
-                </td>
-            </tr>
+            <td align="center" style="color: brown;"><u>www.pizzaonline.com</u></td>
         </tr>
-
         <tr>
-            <td colspan="2" align="center">
-                <button type="submit" style="margin-right: 10px;">Enviar</button>
-                <button type="reset">Limpar</button>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2"> 
-                <hr color="de2018" size="40">
-            </td>
+            <td> <img src="/Atividades/1 Bimestre/Atividade 16 - Pizza - Cadastro - Forms/imagens_pizza/topo.png" alt="topo"></td>
         </tr>
     </table>
 </body>
