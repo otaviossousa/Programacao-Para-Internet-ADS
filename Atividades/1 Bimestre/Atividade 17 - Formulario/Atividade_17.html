@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Número:</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>Bandeira:</th>
+            <td>
+                <form action="" method="post">
+                    <input type="radio" name="bandeira" value="visa"><img src="/Atividades/1 Bimestre/Atividade 17 - Formulario/index/exec_img_form/visa.jpg" alt=""><br>
+                    <input type="radio" name="bandeira" value="master"><img src="/Atividades/1 Bimestre/Atividade 17 - Formulario/index/exec_img_form/master.jpg" alt=""><br>
+                    <input type="radio" name="bandeira" value="american"><img src="/Atividades/1 Bimestre/Atividade 17 - Formulario/index/exec_img_form/american.jpg" alt=""><br>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Validade:</th>
+            <td>
+                <form action="" method="post">
+                    <select name="validade" id="cardValidade">
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <table border="1" bgcolor="d0d0d0">
+        <tr>
+            <td>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend> Informações do Aquário</legend><br>
+                        <strong> Ph do Aquário</strong><br>
+                        <input type="radio" name="PH" value="Acido"> Ácido
+                        <input type="radio" name="PH" value="Alcalino" > Alcalino <br><br>
+
+                        <fieldset>
+                            <legend>Peixes</legend>
+                            <strong>Quantidade:</strong>
+                            <input type="number"><br><br>
+
+                            <strong>Espécie:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <select name="especie" id="1">
+                                <option value="Espada">Espada</option>
+                                <option value="Molinésia">Molinésia</option>
+                                <option value="Plati">Plati</option>
+                            </select>
+                        </fieldset>
+                        <br>
+                        <strong>Outros:</strong><br>
+                        <input type="checkbox" name="outros" value="pedras"><strong>Pedras</strong><br>
+                        <input type="checkbox" name="outros" value="plantas"><strong>Plantas</strong>
+
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <table border="1" cellspacing="5px" cellpadding="5px">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td align="center">
+                           <h2>Escola Virtual</h2> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <h3>Formulário de Pré-matrícula</h3>
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="1">
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <form action="" method="post">
+                                            <tr>
+                                                <th align="left">Dados Pessoais</th>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">Nome do Aluno: </td>
+                                                <td><input type="text" id="nameA"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">Nascimento do Aluno:</td>
+                                                <td><input type="date"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">Nome da Mãe:</td>
+                                                <td><input type="text" id="nameM"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right"> Nome do Pai:</td>
+                                                <td><input type="text" id="nameP"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">Telefone:</td>
+                                                <td><input type="tel" maxlength="11"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">E-mail</td>
+                                                <td><input type="email" maxlength="50"></td>
+                                            </tr>  
+                                            </form>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table cellspacing="5px" cellpadding="5px">
+                                            <th align="left">Informações da Matricula</th>
+                                            <tr>
+                                                <form action="" method="post">
+                                                    <td>
+                                                        Série: <br>
+                                                        <select name="serie" id="serie">
+                                                            <option value="" disabled selected>Selecione uma série</option>
+                                                            <option value="Pré-Escola">Pré-Escola</option>
+                                                            <option value="Fundamental 1">Fundamental 1</option>
+                                                            <option value="Fundamental 2">Fundamental 2</option>
+                                                            <option value="Ensino Médio">Ensino Médio</option>
+                                                        </select>
+                                                    </td>
+                                                    <td>
+                                                        Turno:<br>
+                                                        <input type="radio" name="turno">Manhã <br>
+                                                        <input type="radio" name="turno">Tarde <br>
+                                                    </td>
+                                                    <td>
+                                                        Atividades Extra Curriculares: <br>
+                                                        <input type="checkbox" name="atividades" value="1">Informática <br>
+                                                        <input type="checkbox" name="atividades" value="2">Música <br>
+                                                        <input type="checkbox" name="atividades" value="3">Balet <br>
+                                                        <input type="checkbox" name="atividades" value="4">Pintura <br>
+                                                        <input type="checkbox" name="atividades" value="5">Judô <br>
+                                                        <input type="checkbox" name="atividades" value="6">Futebol <br>
+                                                    </td>
+                                                </form>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <button type="submit">Enviar Formulário</button>
+                            <button type="reset">Limpar Campos</button>
+                        </td>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
