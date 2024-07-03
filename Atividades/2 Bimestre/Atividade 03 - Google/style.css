@@ -1,0 +1,51 @@
+font{
+    font-family: Sans-Serif ;
+}
+
+.opt{
+    text-align: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.google{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 500%;
+}
+
+.search{
+    text-align: center;
+    padding: 10px; /* Adiciona mais espaço dentro do campo */
+    width: 50%;
+    margin: 0 auto; /* Centraliza o campo */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+}
+
+.search:focus{
+    border: 1px solid #000; /* Adiciona uma borda preta quando o campo está em foco */
+}
+
+.bnt {
+    padding: 10px 20px; /* Aumenta o espaçamento interno para 10px na vertical e 20px na horizontal */
+    border: 1px solid #f8f9fa; /* Adiciona uma borda cinza */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+  }
+
+
+.blue{
+    color: #4285f4;
+}
+
+.red{
+    color: #ea4335;
+}
+
+.green{
+    color: #34a853;
+}
+
+.yellow{
+    color: #fbbc05;
+}
