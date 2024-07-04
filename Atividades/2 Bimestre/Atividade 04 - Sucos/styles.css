@@ -1,0 +1,48 @@
+body{
+    margin: 5%;
+}
+
+h3{
+    color: #007e7e;
+    font-family: Arial;
+}
+
+h4{
+    color: #007e7e;
+    font-family: Arial;
+}
+
+p{
+    color: #333;
+    font-family: Arial;
+}
+
+hr{
+    background-color: #007e7e;
+    height: 2px;
+}
+
+.verde{
+    color: green;
+}
+
+.azul{
+    color: blue;
+}
+
+.roxo{
+    color: purple;
+
+}
+
+.marrom{
+    color: brown;
+}
+
+.cinza{
+    color: #c4c4c4;
+    font-family: Arial;
+    text-align: center;
+}
+
+
