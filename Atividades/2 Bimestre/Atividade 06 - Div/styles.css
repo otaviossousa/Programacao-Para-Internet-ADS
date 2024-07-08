@@ -1,0 +1,49 @@
+h1{
+    color: #000;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 5%;
+}
+
+.box{
+    background-color: #f2f2f2;
+    width: 30%;
+    height: auto; /* Ajuste para 'auto' para permitir que a caixa se expanda conforme o conteúdo */
+    display: block; /* Alterado de 'flex' para 'block' */
+    margin: 0 auto; /* Centraliza a caixa */
+    border-radius: 10px;
+    padding: 20px; /* Adicionado para dar espaço interno */
+    box-shadow: 3px 3px  10px 3px #888888; /* Adicionado sombra */
+}
+
+h3{
+    color: blue;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 80%; /* Define a largura do campo de texto */
+    padding: 12px; /* Adiciona um pouco de padding para tornar o campo de texto maior */
+    margin: 8px 0; /* Adiciona um pouco de espaço entre os campos de texto */
+    display: inline-block; /* Permite que os campos de texto sejam exibidos em linha */
+    border: 1px solid #ccc; /* Adiciona uma borda ao campo de texto */
+    box-sizing: border-box; /* Define a caixa de modelo para incluir a borda no tamanho total */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+}
+
+
+input[type="submit"] {
+    color: white; /* Define a cor do texto */
+    background-color: #4285F4; /* Define a cor de fundo */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Adiciona um pouco de padding para tornar o botão maior */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    margin-left: 20px;
+}
+
+/* Define a cor do botão de envio quando o mouse está sobre ele */
+input[type="submit"]:hover {
+    background-color: #357ae8;
+}
