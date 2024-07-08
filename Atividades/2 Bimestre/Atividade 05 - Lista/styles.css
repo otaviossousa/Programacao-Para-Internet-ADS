@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5%;
+    padding: 5%;
+    color: blue;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.disc {
+    list-style-type: disc;
+}
+
+.decimal {
+    list-style-type: decimal;
+}
+
+.lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0; 
+    text-align: left; 
+}
+
+.nondecoration li{
+    list-style-type: none;
+}
+
+.nondecoration li img{
+    margin-right: 10px;
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 0; 
+    text-align: left; 
+}
+
+.decimal li {
+    list-style-type: decimal;
+}
+
+.lower-alpha li {
+    list-style-type: lower-alpha;
+}
+
+.lower-roman li {
+    list-style-type: lower-roman;
+}
