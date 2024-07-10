@@ -1,11 +1,10 @@
 body{
     background-image: url('/Atividades/2 Bimestre/Atividade 07 - Final Fantasy/Imagens/fundo_final.jpg');
     background-attachment: fixed;
-    background-position: center;
     font-family: 'Arial', sans-serif;
     color: bisque;
-    margin: 0;
-    padding: 0; 
+    margin-right: 10px;
+    margin-left: 10px; 
 }
 
 hr{
@@ -20,8 +19,6 @@ h3{
     text-align: right;
     font-size: 30px;
     margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 10px; 
 }
 
 h6{
@@ -29,13 +26,9 @@ h6{
     color: #000;
     text-align: left;
     font-size: 20px;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 10px; 
+    margin-top: 20px; 
 }
 
 p{  
-    text-indent: 4%;
-    margin-left: 20px;
-    margin-right: 20px;
+    text-indent: 5%;   
 }
