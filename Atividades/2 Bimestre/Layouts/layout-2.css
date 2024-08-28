@@ -1,0 +1,34 @@
+#geral{
+    width: 700px;
+    margin: auto;
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid gray;
+}
+
+#cabecalho, #conteudo, #rodape , #esquerda{
+   padding: 10px;
+}
+
+#cabecalho{
+    background-color: #dddddd;
+    border-bottom: 1px solid gray;
+}
+
+#esquerda{
+    float: left;
+    width: 150px;
+}
+
+#conteudo{
+    float: left;
+    width: 500px;
+    border-left: 1px solid gray;
+}
+
+#rodape{
+    clear: both;
+    color: #333333;
+    background-color: #dddddd;
+    border-top: 1px solid gray;
+}

@@ -1,0 +1,41 @@
+#geral{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid gray;
+}
+
+#cabecalho, #conteudo, #rodape , #esquerda{
+   padding: 10px;
+}
+
+#cabecalho{
+    background-color: #dddddd;
+    border-bottom: 1px solid gray;
+}
+
+#esquerda{
+    float: left;
+    width: 130px;
+    background-color: #dddddd;
+}
+
+#conteudo{
+    float: left;
+    width: 470px;
+    background-color: #fff;
+}
+
+#direita{
+    float: right;
+    width: 150px;
+    background-color: #dddddd;
+}
+
+#rodape{
+    clear: both;
+    color: #333333;
+    background-color: #dddddd;
+    border-top: 1px solid gray;
+}

@@ -50,7 +50,6 @@ main{
 /* Estiliza a div container */
 .container-wolfs {
     width: 100%;
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

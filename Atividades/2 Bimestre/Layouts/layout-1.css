@@ -1,0 +1,26 @@
+#geral{
+    width: 700px;
+    margin: auto;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid gray;
+}
+
+#cabecalho, #conteudo, #rodape{
+   padding: 10px;
+}
+
+#cabecalho{
+    background-color: #dddddd;
+    border-bottom: 1px solid gray;
+}
+
+#conteudo{
+    border-top: 1px solid gray;
+}
+
+#rodape{
+    color: #333333;
+    background-color: #dddddd;
+    border-top: 1px solid gray;
+}
