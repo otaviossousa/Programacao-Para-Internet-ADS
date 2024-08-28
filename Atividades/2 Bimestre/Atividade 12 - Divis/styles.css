@@ -1,0 +1,76 @@
+.containner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    font-family: lato;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 50px;
+    color: #d8d8d8;
+    margin: 0;
+}
+
+.interno {
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 15px;
+    color: #2d6fa9;
+    font-weight: bold;
+    white-space: normal;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+.time {
+    font-size: 10px;
+    color: #000000;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    padding-bottom: 50px;
+    margin: 10px;
+    border: 1px solid #d8d8d8;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+/* alinhar a classe no centro da pagina margin de 100px
+    demais itens da classe um a baixo do outro
+*/
+.usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#negrito {
+    font-weight: bold;
+}
+
+
+
+hr {
+    width: 10%;
+    border: 1px solid #d8d8d8;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#info {
+    font-size: 10px;
+    color: #d8d8d8;
+    margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+header h3{
+    color: #fff;
+    margin-top: 0;
+    padding: 10px;
+    background-color: #05815c; 
+}
+
+
+.form {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 40%;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px silver;
+}
+
+.form h3{
+    color: #05815c;
+    margin-top: 0;
+    padding: 10px;
+}
+
+hr{
+    size: 100px !important;
+    background-color:  #05815c !important;
+}
+
+.tec{
+    overflow-y: scroll ;
+    resize: none;
+}
+
+.btn-primary{
+    background-color: #05815c !important;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
